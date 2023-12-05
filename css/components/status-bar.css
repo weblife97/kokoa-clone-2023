@@ -27,6 +27,6 @@
   align-items: center;
 }
 
-.status-bar__colum.fa-battery-full {
+.status-bar__colum .fa-battery-full {
   margin: 0px 5px;
 }
