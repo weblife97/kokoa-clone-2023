@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.alt-haeder__columu {
+  width: 33%;
+}
+
 .alt-haeder__title {
   font-size: 32px;
   font-weight: 600;
@@ -16,4 +20,13 @@
 }
 .alt-haeder__columu:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-haeder__columu:nth-child(2) {
+  text-align: center;
+}
+
+.alt-haeder__columu span:last-child {
+  margin-left: 20px;
 }
